@@ -1,0 +1,116 @@
+/* --- CONFIGURAÇÕES GERAIS (REGRAS DE ESTILO) --- */
+
+/* 1. Fundo e Texto Global */
+body { 
+    background-color: #000; 
+    color: #39FF14; 
+    font-family: 'Courier New', monospace; 
+    margin: 0; 
+    padding: 0;
+}
+
+/* 2. Títulos (Hierarquia e Centralização) */
+h1, h2, h3 { 
+    text-align: center; 
+    color: #8A2BE2; 
+    text-shadow: 2px 2px #000; 
+    text-transform: uppercase;
+}
+
+/* 3. Container Principal (Scannability) */
+.container { 
+    max-width: 900px; 
+    margin: 20px auto; 
+    padding: 30px; 
+    border: 1px solid #39FF14; 
+    background: rgba(20, 20, 20, 0.9);
+}
+
+/* 4. Menu de Navegação (Header e Nav) */
+header { 
+    background: #1a1a1a; 
+    padding: 15px; 
+    border-bottom: 3px solid #39FF14; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+}
+nav { 
+    display: flex; 
+    justify-content: center; 
+    gap: 25px; 
+}
+nav a { 
+    color: #39FF14; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+nav a:hover { color: #fff; text-shadow: 0 0 10px #39FF14; }
+
+/* 5. Imagem de Entrada (Background) */
+.hero-portal { 
+    height: 300px; 
+    background: url('Imagens/Rick-and-Morty.jpg') center/cover; 
+    border-bottom: 4px solid #8A2BE2; 
+}
+
+/* 6. Parágrafos Estilizados */
+.texto-sci-fi { 
+    line-height: 1.8; 
+    text-align: justify; 
+    margin-bottom: 20px; 
+}
+
+/* 7. Tabelas (Variações) */
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    border: 2px solid #8A2BE2; 
+}
+th { background: #8A2BE2; color: #000; padding: 12px; }
+td { border: 1px solid #39FF14; padding: 10px; text-align: center; }
+
+/* 8. Formulário e Fieldset */
+fieldset { 
+    border: 2px solid #39FF14; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-top: 20px; 
+}
+legend { color: #8A2BE2; font-weight: bold; padding: 0 10px; }
+
+/* 9. Botões e Inputs */
+input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+}
+input[type="submit"] { background: #39FF14; color: #000; }
+input[type="reset"] { background: #ff4500; color: #fff; }
+
+/* 10. Mídia e Galeria */
+.galeria-img { 
+    width: 150px; 
+    height: 150px; 
+    border: 3px solid #39FF14; 
+    border-radius: 15px; 
+    margin: 10px; 
+}
+video, audio { 
+    display: block; 
+    margin: 20px auto; 
+    border: 2px solid #8A2BE2; 
+    max-width: 100%;
+}
+
+/* Âncoras */
+.ancora { 
+    display: block; 
+    text-align: center; 
+    color: #8A2BE2; 
+    margin-top: 20px; 
+    text-decoration: none;
+}
